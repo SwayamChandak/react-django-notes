@@ -30,7 +30,7 @@ SECRET_KEY = "django-insecure-u&eqhy2qw!q&)j(b%+l))prqsz)w001v^!(+$$)6teutv6_^p+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"] #allow all hosts to run the application
+ALLOWED_HOSTS = ['15.207.117.142','*'] #allow all hosts to run the application
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
